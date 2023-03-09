@@ -1,0 +1,12 @@
+<?php 
+$no_angkot=1;
+while($no_angkot <=6) {
+    echo "Angkot no $no_angkot beroprasi dengan baik. <br>";
+    $no_angkot +=1;
+}
+
+for ($no_angkot=7; $no_angkot<=10; $no_angkot++) {
+    echo "Angkot no $no_angkot sedang rusak.<br>";
+}
+
+?>
