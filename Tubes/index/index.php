@@ -6,17 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>infant health management </title>
     
-
-    <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-    <!-- custom css file link  -->
     <link rel="stylesheet" href="assets/style.css">
 
 </head>
 <body>
     
-<!-- header section starts  -->
 
 <header class="header">
 
@@ -42,9 +38,7 @@
 
 </header>
 
-<!-- header section ends -->
 
-<!-- home section starts  -->
 
 <section class="home" id="home">
 
@@ -66,10 +60,6 @@
 <br>
 
 
-
-<!-- home section ends -->
-<!-- about section starts  -->
-
 <section class="about" id="about">
 
     <h1 class="heading">about RS.UTAMA </h1>
@@ -90,11 +80,7 @@
 
 </section>
 <br>
-<!-- about section ends -->
 
-
-
-<!-- services section starts  -->
 
 <section class="services" id="services">
 
@@ -148,11 +134,7 @@
 
 </section>
 
-<!-- features section ends -->
 
-
-
-<!-- booking section starts   -->
 
 <section class="book" id="book">
 
@@ -177,10 +159,7 @@
 
 </section>
 
-<!-- booking section ends -->
 
-
-<!-- blogs section starts  -->
 
 <section class="blogs" id="blogs">
 
@@ -237,9 +216,7 @@
 
 </section>
 
-<!-- blogs section ends -->
 
-<!-- footer section starts  -->
 
 <section class="footer" id="footer">
 
