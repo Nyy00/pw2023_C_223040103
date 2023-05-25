@@ -20,16 +20,16 @@
     
 
     <nav class="navbar">
-        <a href="#home">home</a>
-        <a href="#about">about</a>
-        <a href="login_doctor/dist/login_doctor.html">Doctor Login</a>
-        <a href="parent_login/dist/parent_login.html">Parent Login</a>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Features</a>
+        <a href="#blogs">Blogs</a>
         <a href="#footer">About us</a>
 
         
     </nav>
     
-    <a href="login/dist/login.html" class="btn btn-danger" role="button">Register</a>
+    <a href="login/login.php" class="btn btn-danger" role="button">Register</a>
     
 
 
