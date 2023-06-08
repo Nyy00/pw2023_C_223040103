@@ -2,7 +2,7 @@
 require ('../function/function.php');
 
 if (isset($_POST['register'])) {
-    if (registrasi($_POST) > 0) {
+    if (registrasi($_POST) >= 0) {
       echo "<script>
               alert('user baru berhasil ditambahkan. silahkan login!');
             </script>";
@@ -36,7 +36,7 @@ if (isset($_POST['register'])) {
 </head>
 <body>
     <form action="" method="post">
-    <label for="regist">
+    <label for="register">
     <div class="container">
     <button class="button" onclick="goBack()"><</button>
         <div class="form signup">

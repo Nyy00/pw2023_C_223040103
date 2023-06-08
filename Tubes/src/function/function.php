@@ -40,7 +40,7 @@ function registrasi($data)
   $conn = koneksi();
 
   $username = htmlspecialchars(strtolower($data['username']));
-  $email = htmlspecialchars(strtolower($data['email']));
+  $email = mysqli_real_escape_string($conn, $data['email']);
   $password = mysqli_real_escape_string($conn, $data['password']);
   $password2 = mysqli_real_escape_string($conn, $data['password2']);
 
@@ -82,8 +82,9 @@ function registrasi($data)
   // insert ke tabel user
   $query = "INSERT INTO users
               VALUES
-            ('', '$username', '$email', '$password')
+            (NULL, '$username','$email', '$password')
           ";
+
+  mysqli_query($conn, $query) or die(mysqli_error($conn));
   return mysqli_affected_rows($conn);
 }
-
