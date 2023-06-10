@@ -1,5 +1,5 @@
 <?php
-define('BASE_URL', 'pw_2023_223040103/Tubes/src/');
+define('BASE_URL', 'pw_2023_223040103/Tubes/admin/');
 
 function koneksi()
 {
@@ -88,3 +88,4 @@ function registrasi($data)
   mysqli_query($conn, $query) or die(mysqli_error($conn));
   return mysqli_affected_rows($conn);
 }
+

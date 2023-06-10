@@ -42,54 +42,38 @@ if (isset($_POST['register'])) {
         <div class="form signup">
             <h2>Sign Up</h2>
             <div class="inputBox">
-                <input type="text" name="username" id="username" >
+                <input type="text" name="username" id="username" required="required">
                 <i class="fa-regular fa-user"></i>
                 <span>username</span>
             </div>
             <div class="inputBox">
-                <input type="text" name="email" id="email" >
+                <input type="text" name="email" id="email" required="required">
                 <i class="fa-regular fa-envelope"></i>
                 <span>email address</span>
             </div>
             <div class="inputBox">
-                <input type="password" name="password" id="password" >
+                <input type="password" name="password" id="password" required="required">
                 <i class="fa-solid fa-lock"></i>
                 <span>create password</span>
             </div>
             <div class="inputBox">
-                <input type="password" name="password2" id="password2" >
+                <input type="password" name="password2" id="password2" required="required">
                 <i class="fa-solid fa-lock"></i>
                 <span>confirm password</span>
             </div>
             <div class="inputBox">
                 <input type="submit" name ="register" value="Create Account">
             </div>
-            <p>Already a member ? <a href="#" class="login">Log in</a></p>
+            <p>Already a member ? <a href="signin.php" class="login">Log in</a></p>
         </div>
 
-        <div class="form signin">
-            <h2>Sign In</h2>
-            <div class="inputBox">
-                <input type="text" >
-                <i class="fa-regular fa-user"></i>
-                <span>username</span>
-            </div>
-            <div class="inputBox">
-                <input type="password" >
-                <i class="fa-solid fa-lock"></i>
-                <span>password</span>
-            </div>
-            <div class="inputBox">
-                <input type="submit" value="Create Account">
-            </div>
-            <p>Not Registerd ? <a href="#" class="create">Create an account</a></p>
-
-            <script>
+        <script>
         function goBack() {
             window.history.back();
         }
     </script>
         </div>
+        </form>
     </div>
 
     <script src="javaScript.js"></script>

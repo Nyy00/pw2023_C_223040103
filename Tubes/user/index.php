@@ -1,3 +1,13 @@
+<?php 
+session_start();
+
+if(!isset($_SESSION["signin"])) {
+    header("location:login/signin.php");
+    exit;
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,8 +38,8 @@
 
         
     </nav>
-    
-    <a href="login/login.php" class="btn btn-danger" role="button">Register</a>
+
+    <a href="login/logout.php" class="btn btn-danger" role="button">logout</a>
     
 
 
