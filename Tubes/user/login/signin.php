@@ -41,12 +41,27 @@
                 setcookie('key', hash('sha256', $row['username']), time() + 60);                
             }
 
-            header ("location:../index.php");
-            exit;
+            $login_success = true;
+
+    // Arahkan pengguna ke halaman yang sesuai
+    if ($login_success) {
+    if ($row['role'] === 'admin') {
+        header("location: ../../admin/index.php");
+        exit;
+    } elseif ($row['role'] === '') {
+        header("location: ../index.php");
+        exit;
+    }
+}
+          }
+        
+
+           // header ("location:../index.php");
+           // exit;
 
           }
         }
-    }
+    
 
     
         

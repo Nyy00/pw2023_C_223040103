@@ -12,7 +12,7 @@
 
     <nav>
       <div class="nav-wrapper indigo darken-2">
-        <a style="margin-left: 20px;" class="breadcrumb" href="#!">Admin</a>
+        <a style="margin-left: 20px;" class="breadcrumb" href="index.php">Admin</a>
 
         <div style="margin-right: 20px;" id="timestamp" class="right"></div>
       </div>

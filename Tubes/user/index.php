@@ -33,10 +33,9 @@ if(!isset($_SESSION["signin"])) {
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#services">Features</a>
+        <a href="produk/produk.php">Product</a>
         <a href="#blogs">Blogs</a>
         <a href="#footer">About us</a>
-
-        
     </nav>
 
     <a href="login/logout.php" class="btn btn-danger" role="button">logout</a>

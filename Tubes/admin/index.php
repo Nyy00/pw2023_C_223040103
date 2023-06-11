@@ -25,7 +25,7 @@
   <header>
     <ul class="dropdown-content" id="user_dropdown">
       <li><a class="indigo-text" href="#!">Profile</a></li>
-      <li><a class="indigo-text" href="#!">Logout</a></li>
+      <li><a class="indigo-text" href="../user/login/logout.php">Logout</a></li>
     </ul>
 
     <nav class="indigo" role="navigation">
